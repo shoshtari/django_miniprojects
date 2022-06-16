@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function send(){
+            var url = document.getElementByName("ulink").value;
+            console.log(url);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="user_link">enter link:</label>
+        <input type="text" id="user_entered_link" name="ulink">
+        <br><br> 
+    </form>
+    <button onclick="send();">Send</button>
+</body>
+</html>
